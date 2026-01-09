@@ -52,7 +52,7 @@
 .early-btn {
   display: flex;
   justify-content: center;
-  padding: 115px;
+  padding-top: 115px;
   padding-bottom: 16px;
 }
 
