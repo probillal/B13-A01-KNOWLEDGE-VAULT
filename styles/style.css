@@ -109,6 +109,7 @@
   background-color: #34c06e;
   color: #ffffff;
 }
+/* card section style */
 .card-section h2 {
   margin-top: 40px;
   text-align: center;
@@ -149,4 +150,41 @@
   font-weight: 500;
   color: #001931;
   text-align: center;
+}
+/* brain container style */
+.brain-container {
+  max-width: 1360px;
+  margin: 120px auto;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.brain-content {
+  max-width: 700px;
+}
+
+.brain-content p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #469165;
+}
+.brain-content h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+  margin-top: 16px;
+}
+.brain-content .brain-paragraph {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+.list-para p {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 16px;
 }
