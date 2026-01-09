@@ -49,13 +49,22 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-
-.early {
-  border: 1px solid yellow;
-  padding-top: 115px;
-  color: red;
+.early-btn {
   display: flex;
+  justify-content: center;
+  padding: 115px;
+  padding-bottom: 16px;
+}
+
+.early-access {
+  padding: 6px 14px;
+  color: #469165;
+  background: #ffffff;
+  border-radius: 50px;
+  display: inline-flex;
   gap: 10px;
+  align-items: center;
+  flex-direction: row;
 }
 .bulet {
   width: 20px;
@@ -83,7 +92,7 @@
   background-color: #508566;
 }
 .hero-tittle {
-  font-size: 40px;
+  font-size: 60px;
   font-weight: bold;
   text-align: center;
   color: #ffffff;
@@ -92,11 +101,10 @@
   color: #34c06e;
 }
 .hero p {
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
   color: #ffffff;
-  max-width: 1360px;
-  margin: 20px auto;
+  margin: 20px 0;
   text-align: center;
 }
 .btn {
@@ -106,10 +114,29 @@
   margin-right: 16px;
   padding: 16px 46px 16px 16px;
   border-radius: 4px;
+  font-weight: 600;
   border: none;
   background-color: #34c06e;
   color: #ffffff;
+  cursor: pointer;
 }
+.btn-1:hover {
+  background-color: #30a661;
+}
+.btn-2 {
+  margin-right: 16px;
+  padding: 16px;
+  font-weight: 600;
+  border-radius: 4px;
+  border: 2px solid #ffffff;
+  background: transparent;
+  color: #ffffff;
+}
+
+.btn-2:hover {
+  background-color: #408487;
+}
+
 /* card section style */
 .card-section h2 {
   margin-top: 40px;
