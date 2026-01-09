@@ -66,6 +66,10 @@
   align-items: center;
   flex-direction: row;
 }
+.early-access .text {
+  font-size: 16px;
+  font-weight: 500;
+}
 .bulet {
   width: 20px;
   height: 20px;
